@@ -1,0 +1,14 @@
+program HallsManager;
+
+uses
+  Vcl.Forms,
+  frmMainProgram in '..\view\frmMainProgram.pas' {FormMainProgram};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFormMainProgram, FormMainProgram);
+  Application.Run;
+end.

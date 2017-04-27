@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{88D910DB-D835-4D73-8C5C-9D8C556B9A76}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="HallsManager.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="HallsManager">
+        <MSBuild Projects="HallsManager.dproj"/>
+    </Target>
+    <Target Name="HallsManager:Clean">
+        <MSBuild Projects="HallsManager.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="HallsManager:Make">
+        <MSBuild Projects="HallsManager.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="HallsManager"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="HallsManager:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="HallsManager:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

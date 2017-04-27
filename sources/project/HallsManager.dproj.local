@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.834,C:\Programy10.1\HallsManager\sources\view\frmMainProgram.dfm=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.257,=C:\Programy10.1\HallsManager\sources\view\frmUserDetails.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.853,C:\Programy10.1\HallsManager\sources\project\HallsManager.dproj=C:\Users\User\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.712,=C:\Programy10.1\HallsManager\sources\service\cServiceUser.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.834,C:\Programy10.1\HallsManager\sources\view\frmMainProgram.pas=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.910,=C:\Programy10.1\HallsManager\sources\model\cUser.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.325,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.617,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.739,=C:\Programy10.1\HallsManager\sources\view\frmLogin.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.356,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.661,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.238,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="Nexus4"/>
+	</ActiveMobileDevice>
+</BorlandProject>
